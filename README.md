@@ -1,3 +1,9 @@
+Этот репозиторий будет содержать все ваши наработки по предмету.
+Заранее давайте договоримся, что исходный код домашек лежит в папке homework, классные работы в classwork, а проекты в projects.
+
+Не забудьте по .gitignore питоновский - добавить его. Не создавать venv, и не загружать .idea папки и проекты вообще. В репозитории только исходный код и необходимые для его работы файлы.
+
+© Абрамский Михаил Михаилович
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
