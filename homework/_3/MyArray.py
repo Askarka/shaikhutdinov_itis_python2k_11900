@@ -35,5 +35,5 @@ if __name__ == '__main__':
     arr = MyArray(int, 5, [1, 2, 3, 4, 5])
     print(arr)
     for j in range(5):
-        arr[j] = 4
+        arr[j] = 6
     print(arr)
