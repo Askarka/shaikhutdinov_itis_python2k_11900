@@ -56,12 +56,16 @@ def fitness_function(word_list, best_word):
 
 
 ideal_word = generate_word()
-print('Ideal word: ' + ideal_word)
+print('Ideal word:\n' + ideal_word)
 
+show_coefficient = int(input('Enter coefficient less than you will see close words close to ideal (recommended 5-7): '))
+
+print('Starting evolution.')
+print('1) The closest word is:\n2) Coefficient is:')
 for y in range(10000):
     list_of_words = generate_list_of_words(WORDS_QUANTITY)
     for x in range(40):
         list_of_words = make_next_generation(list_of_words)
         p = fitness_function(list_of_words, ideal_word)
-        if p[1] < 5.0:
-            print(p)
+        if p[1] < show_coefficient:
+            print(p[2] + '  ' + str(int(p[1])))
