@@ -5,7 +5,7 @@ from os import path
 img_dir = path.join(path.dirname(__file__), 'img')
 
 WIDTH = 680
-HEIGHT = 1000
+HEIGHT = 700
 FPS = 60
 
 WHITE = (255, 255, 255)
@@ -83,7 +83,7 @@ class Bullet(pygame.sprite.Sprite):
             self.kill()
 
 
-player_img = pygame.image.load(path.join(img_dir, "triangle_sprite.png ")).convert()
+player_img = pygame.image.load(path.join(img_dir, "triangle_sprite.png")).convert()
 meteor_img = pygame.image.load(path.join(img_dir, "meteor.png")).convert()
 bullet_img = pygame.image.load(path.join(img_dir, "bullet.png")).convert()
 
