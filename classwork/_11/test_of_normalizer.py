@@ -7,7 +7,6 @@ def test__normalize_url_1():
     assert normalized_url == good_url
 
 
-
 def test__normalize_url_2():
     good_url = 'https://http.cat/200.jpg'
     normalized_url = normalize_url('//http.cat/200.jpg', 'http.cat')

@@ -2,8 +2,8 @@ import multiprocessing
 import os
 import sys
 
-import requests
 import bs4
+import requests
 
 
 def find_pics(tree_of_tags):

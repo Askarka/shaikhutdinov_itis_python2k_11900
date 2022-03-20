@@ -7,4 +7,3 @@ def normalize_url(url, domain):
     elif url[1] == '/':
         normalized_url = 'https:' + url
     return normalized_url
-
